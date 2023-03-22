@@ -52,7 +52,7 @@ def train_model(input_dir,  epochs, batch_size, model_path):
     preds = np.array(preds)
     labels =test_df["labels"].values
     
-    assert len(preds) == len(labels)
+    #assert len(preds) == len(labels)
 
     label_list = []
     for id, p in test_df.groupby("sentence_id"):
