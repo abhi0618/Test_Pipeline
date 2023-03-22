@@ -62,8 +62,8 @@ if __name__ == "__main__":
         args.train_batch_size, 
         model_path
     )
-    cr = evaluate_model_cr(preds, labels)
-    print(cr)
+    #cr = evaluate_model_cr(preds, labels)
+    #print(cr)
     met = evaluate_model_metrics(preds_list, label_list)
     print(met)
     
